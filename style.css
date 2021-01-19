@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding: 0;
+	border-style: border-box;
+}
+body{
+	background-color:#c3c3c3;
+
+}
+.service{
+	width: 25%;
+}
+.container-div{
+	width: 50%;
+	margin: 5% 0 0 25%;
+	border-radius: 2%;
+
+}
+h1{
+	font-size: 40px;
+	color:white;
+	text-align: center;
+	border-radiu
+	width:50%;
+	font-family: 'Oswald', sans-serif;
+}
+#todo{
+	padding-left: 20px;
+	width: 90%;
+	height: 40px;
+	margin-bottom: 40px;
+}
+#todolist{
+ 	font-size: 5vh;
+	margin-left: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+#submit{
+	float: right;
+	position: relative;
+	font-weight: bold;
+	font-size: 15px;
+	width: 20%;
+	height: 47px;
+	border: none;
+	color:black;
+	border-radius: 2%;
+	border: 5px solid #ffcc5c;
+	background-color: white;
+	margin-top: -85px;
+}
+#submit:hover, #clear:hover{
+	background-color: #ffcc5c;
+	color:black;
+}
+#clear{
+	width: 20%;
+	height: 44px;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: white;
+	border: 5px solid #ffcc5c;	
+	margin-left: 40%;
+}
+.delete, .check{
+	width: 30px;
+	float: right;
+	border: none;
+	color: black;
+	background-color: #c3c3c3;
+	font-size: 1em;
+	font-family: 'Oswald', sans-serif;
+}
+.delete{
+	margin-left: 3px;
+}
